@@ -1,0 +1,96 @@
+.result {
+
+}
+
+.wrap {
+  padding: 50px 0 10px;
+}
+
+.subTitle {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  color: #FF4D01;
+  padding-bottom: 20px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 83px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #42525B;
+  padding-bottom: 40px;
+
+  span {
+    color: #FF4D01;
+  }
+}
+
+.resultContent {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  .resultContentImg {
+    width: 36%;
+
+    .img{
+      width: 100%;
+      height: 700px;
+    }
+  }
+
+  .resultContentInfo {
+    width: 60%;
+
+    .resultContentTitle{
+      font-weight: 400;
+      font-size: 56px;
+      line-height: 120.9%;
+      color: #42525B;
+      padding-bottom: 25px;
+    }
+    li{
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 160%;
+      color: #42525B;
+    }
+  }
+}
+
+.btnWrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .enjoyBtn{
+    width: 220px;
+    height: 76px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #FF4D01;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 60px;
+  }
+
+  .practicBtn{
+    border: 1px solid #FF4D01;
+    border-radius: 0px 10px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 42px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #FF4D01;
+    padding: 16px 32px;
+
+  }
+}

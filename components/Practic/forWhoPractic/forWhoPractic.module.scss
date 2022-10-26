@@ -1,0 +1,62 @@
+.forWhoPractic{
+  background: #F7F7F7;
+}
+
+.wrap{
+  padding: 50px 0 33px;
+}
+
+.title{
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 83px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #42525B;
+}
+.items{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+
+  .item{
+    width: 245px;
+
+    .subTitle{
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 39px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #FF4D01;
+      min-height: 127px;
+    }
+
+    .text{
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 160%;
+      color: #42525B;
+    }
+  }
+}
+
+.btnWrap{
+  display: flex;
+  justify-content: end;
+  padding-top: 50px;
+  .btn{
+    border: 1px solid #FF4D01;
+    border-radius: 0px 10px;
+    width: 220px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration-line: underline;
+    color: #FF4D01;
+    font-weight: 400;
+    font-size: 26px;
+  }
+}

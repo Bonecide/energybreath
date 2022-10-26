@@ -10,3 +10,14 @@ body {
 p,a {
     color: #42525B;
 }
+
+.container{
+    width: 1250px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1250px){
+    .container{
+        width: 80vw;
+    }
+}

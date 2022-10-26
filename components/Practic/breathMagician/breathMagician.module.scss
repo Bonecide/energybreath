@@ -1,0 +1,51 @@
+.breathMagician{
+
+    background: url("../../../public/img/breathMagicianBg.png") 100% 100% no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrap{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.subTitle{
+    font-weight: 400;
+    font-size: 40px;
+    color: #42525B;
+}
+
+.mainInfo {
+    padding-top: 82px;
+    .title {
+        font-weight: 700;
+        font-size: 64px;
+        text-transform: uppercase;
+        color: #42525B;
+    }
+    .text{
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 47px;
+        color: #42525B;
+    }
+}
+.btnWrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 290px;
+    .btn {
+        cursor: pointer;
+        text-decoration: none;
+        width: 220px;
+        height: 76px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FF4D01;
+        color: #fff;
+        font-weight: 400;
+        font-size: 20px;
+    }
+}
