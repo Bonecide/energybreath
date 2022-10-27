@@ -4,7 +4,7 @@ import resultImg from "../../../public/img/resultImg.png"
 
 const Result = () => {
     return (
-        <section className={s.result}>
+        <section id="results" className={s.result}>
             <div className="container">
                 <div className={s.wrap}>
                     <div className={s.subTitle}>

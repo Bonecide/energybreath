@@ -2,7 +2,7 @@ import s from "./Expert.module.scss"
 
 const Expert = () => {
     return (
-        <section className={s.expert}>
+        <section id="expert" className={s.expert}>
             <div className="container">
                 <div className={s.wrap}>
                     <div className={s.subTitle}>

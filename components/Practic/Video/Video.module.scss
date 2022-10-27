@@ -1,12 +1,34 @@
-.video{
-  background-color: #fff;
-  padding: 20px 0;
-}
-
-.title{
-  font-weight: 400;
-  font-size: 64px;
-  line-height: 87.9%;
-  text-align: center;
-  color: #FF4D01;
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 25px;
+    h1 {
+        font-weight: 400;
+        font-size : 64px;
+        color: #FF4D01;
+    }
+    .video {
+        .PlayCircle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 10px 20px 0px #00000026;
+            background: transparent;
+            border: 3px solid white;
+          
+            position: relative;
+           
+            .PlayArrow {
+              color: white;
+              width: 61px;
+              height: 61px;
+             
+            }
+        }
+    }
 }

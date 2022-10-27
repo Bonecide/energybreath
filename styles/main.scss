@@ -3,9 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body {
     font-family: 'PT Sans Narrow', sans-serif;
+    scroll-behavior: smooth;
 }
 p,a {
     color: #42525B;
@@ -15,7 +17,16 @@ p,a {
     width: 1250px;
     margin: 0 auto;
 }
-
+.react-player {
+    width: 1200px !important;
+    height: 487px !important;
+    overflow: hidden;
+    box-shadow: 0px 0px 37.36000061035156px 0px #0000000D;
+    border-radius: 0px 50px;
+    .react-player__preview {
+      background-image: url('../public/img/video.png') !important;
+      border-radius: 0px 50px;}
+    }
 @media screen and (max-width: 1250px){
     .container{
         width: 80vw;
