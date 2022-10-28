@@ -1,0 +1,99 @@
+.WhatWeFeel {
+  background-color: #fff;
+}
+
+.header {
+  background: url("../../../public/img/chaosBg.png") 100% 100% no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+  height: 360px;
+
+  .title {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 83px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}
+
+.wordsWrap{
+  position: relative;
+
+  div{
+    font-weight: 400;
+    color: #FF4D01;
+    position: absolute;
+  }
+
+  .word1{
+    font-size: 78px;
+    top: 10px;
+    left: 186px;
+  }
+
+  .word2{
+    font-size: 52px;
+    top: 94px;
+    left: 372px;
+  }
+
+  .word3{
+    font-size: 57px;
+    top: 20px;
+    left: 547px;
+  }
+
+  .word4{
+    font-size: 40px;
+    top: 116px;
+    left: 609px;
+  }
+
+  .word5{
+    font-size: 65px;
+    top: 7px;
+    right: 203px;
+  }
+}
+
+.mainInfo{
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  .img{
+    width: 475px;
+
+    img{
+      width: 475px;
+      height: 511px;
+    }
+  }
+
+  .mainInfoText{
+    width: 55%;
+
+    .mainInfoTitle{
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 83px;
+      color: #42525B;
+    }
+
+    li{
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 160%;
+      color: #42525B;
+    }
+  }
+}
+
+.text{
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 42px;
+  color: #42525B;
+}

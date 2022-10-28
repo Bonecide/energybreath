@@ -1,0 +1,82 @@
+.ViciousCircle{
+  background-color: #fff;
+  margin-top: 50px;
+}
+
+.header{
+  background: url("../../../public/img/chaosBg2.png") 100% 100% no-repeat;
+  background-size: cover;
+
+  .title{
+    padding: 50px 0;
+    font-weight: 400;
+    font-size: 64px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FF4D01;
+
+  }
+}
+
+
+
+.wrap{
+  padding: 30px 0 30px 60px;
+
+}
+.items{
+
+  .item{
+    display: flex;
+    margin-bottom: 20px;
+    .x{
+      margin-right: 20px;
+      width: 44px;
+      height: 81px;
+      background: #FF4D01;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .itemText{
+      font-weight: 400;
+      font-size: 52px;
+      line-height: 83px;
+      color: #42525B;
+    }
+  }
+}
+
+
+.text{
+  font-weight: 400;
+  font-size: 64px;
+  text-align: center;
+  color: #FF4D01;
+}
+
+.title{
+  padding: 10px 0;
+  font-weight: 400;
+  font-size: 64px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FF4D01;
+
+}
+
+.btnWrap{
+  display: flex;
+  justify-content: center;
+  margin: 60px 0;
+}
+
+.btn{
+  text-transform: none;
+  text-decoration: none;
+  padding: 26px 40px;
+
+  background: #FF4D01;
+  color: #fff;
+}
