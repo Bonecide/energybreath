@@ -3,11 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    scroll-behavior: smooth;
 }
 body {
     font-family: 'PT Sans Narrow', sans-serif;
-    scroll-behavior: smooth;
+    
 }
 p,a {
     color: #42525B;
@@ -32,3 +32,48 @@ p,a {
         width: 80vw;
     }
 }
+.dots-pag {
+    margin-top: 0px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background: white;
+   
+  
+  }
+  .slick-dots {
+    position: initial !important;
+    bottom: auto !important;
+    display: flex !important;
+    gap: 50px !important;
+    color: white;
+    justify-content: center;
+    font-size: 32px;
+    background: transparent;
+    font-weight: 400;
+  
+  }
+  .slick-dots {
+    .slick-active {
+      .activate {
+        
+        width: 30px;
+        height: 30px;
+       background: #FF4D01;
+    
+        
+      }
+  
+    }
+  }
+  
+  .slick-next {
+    display: none !important;
+  }
+  .slick-list {
+    padding-bottom: 10px  ;
+  }
+  .slick-track {
+    padding-top: 10px;
+  }
+  

@@ -7,19 +7,27 @@ import Video from './Video/Video';
 import Variants from './Variants/Variants';
 import HowItWIll from "./HowItWIll/HowItWIll";
 import Installment from "./Installment/Installment";
+import ReviewsSlider from './ReviewsSlider/ReviewsSlider';
+import FAQ from './../FAQ/FAQ';
+import { useState } from 'react';
+import OrderModal from "../../module/OrderModal/OrderModal";
 
 const PracticComponent = () => {
+    const [isOpen,setIsOpen] = useState(false)
     return (
         <>
-            <BreathMagician />
+            <BreathMagician setIsOpen={setIsOpen} />
             <ForWhoPractic />
             <Result />
             <Expert />
             <HowItWork />
             <Video />
-            <Variants   />
+            <Variants setIsOpen={setIsOpen}  />
             <HowItWIll/>
-            <Installment/>
+            <Installment setIsOpen={setIsOpen}/>
+            <ReviewsSlider/>
+            <FAQ setIsOpen ={setIsOpen}/>
+            {isOpen && <OrderModal close={setIsOpen}/>}
         </>
     );
 };

@@ -1,0 +1,74 @@
+.container {
+    margin-top: 50px;
+    h1 {
+        text-align: center;
+        color: #42525B;
+        font-size: 64px;
+        font-weight: 400;
+    }
+    .slide {
+        width: 571px !important;
+        height: 345px;
+        box-shadow: 0px 1px 20px 0px #0000001A;
+        
+        margin-left: 50px;
+        padding: 37px 50px;
+        h3 {
+            color: #42525B;
+            font-size: 40px;
+            font-weight: 400;
+        }
+        p {
+            margin-top: 10px;
+            color: #42525B;
+            font-size: 16px;
+        }
+
+    }
+    .sliderContainer {
+        margin-top: 50px !important;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        
+    }
+    .end {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        gap: 100px;
+        h3 {
+            color: #42525B;
+            font-weight: 400;
+            font-size: 56px;
+            span {
+                color: #FF4D01;
+            }
+           
+        }
+        h4 {
+                font-size: 56px;
+                font-weight: 400;
+                color: #FF4D01;
+        }
+        button {
+            padding: 26px 40px;
+            cursor: pointer;
+            border: none;
+            color: white;
+            background: #FF4D01;
+            margin-bottom: 70px;
+        }
+    }
+}
+.dotsPag {
+    margin-top: 50px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background: #F6F6F6;
+   
+}

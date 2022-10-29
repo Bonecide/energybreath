@@ -2,6 +2,7 @@ import s from "./Result.module.scss"
 import IMG from "../../Main/IMG/IMG";
 import resultImg from "../../../public/img/resultImg.png"
 
+import Link from "next/link";
 const Result = () => {
     return (
         <section id="results" className={s.result}>
@@ -54,9 +55,11 @@ const Result = () => {
                         <a href={"#"} className={s.enjoyBtn}>
                             Записаться на курс
                         </a>
-                        <a href={"#"} className={s.practicBtn}>
+                        <Link href={"/program"}>
+                        <a  className={s.practicBtn}>
                             Программа практикума...
                         </a>
+                        </Link>
                     </div>
                 </div>
             </div>

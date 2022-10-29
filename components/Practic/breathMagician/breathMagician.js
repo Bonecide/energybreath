@@ -1,6 +1,6 @@
 import s from "./breathMagician.module.scss"
 
-const BreathMagician = () => {
+const BreathMagician = ({setIsOpen}) => {
 
 
 
@@ -21,7 +21,7 @@ const BreathMagician = () => {
                         </div>
                     </div>
                     <div className={s.btnWrap}>
-                        <a href={"#"} className={s.btn}>Записаться на курс</a>
+                        <a onClick = {() => setIsOpen(true)} className={s.btn}>Записаться на курс</a>
                     </div>
                 </div>
             </div>

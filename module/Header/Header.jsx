@@ -19,7 +19,7 @@ export default function Header() {
     
     { 
         name : 'результаты',
-        link : '#results'
+        link : '/practic#results'
     },
     { 
         name : 'программа практикума',
@@ -27,23 +27,23 @@ export default function Header() {
     },
     { 
         name : 'эксперт',
-        link : '#expert'
+        link : '/practic#expert'
     },
     { 
         name : 'маг дыхания',
-        link : '#mage'
+        link : '/practic#mage'
     },
     { 
         name : 'рассрочка',
-        link : '#installment'
+        link : '/practic#installment'
     },
     { 
         name : 'отзывы',
-        link : '#reviews'
+        link : '/practic#reviews'
     },
     { 
         name : 'faq',
-        link : '#faq'
+        link : '/practic#faq'
     },]
     const {pathname } = useRouter()
     return (

@@ -1,6 +1,6 @@
 import s from "./ViciousCircle.module.scss"
 
-const ViciousCircle = () => {
+const ViciousCircle = ({setIsOpen}) => {
     return (
         <div className={s.ViciousCircle}>
             <div className={s.header}>
@@ -74,7 +74,7 @@ const ViciousCircle = () => {
                     и действуйте эффективно в любой ситуации!
                 </div>
                 <div className={s.btnWrap}>
-                    <a href={"#"} className={s.btn}>
+                    <a onClick = {() => setIsOpen(true)} className={s.btn}>
                         Записаться на курс
                     </a>
                 </div>

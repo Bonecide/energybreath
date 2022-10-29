@@ -1,5 +1,5 @@
 import s from './Installment.module.scss'
-export default function Installment() {
+export default function Installment({setIsOpen}) {
 
     return (
         <div id='installment' className={s.container}>
@@ -19,7 +19,7 @@ export default function Installment() {
 
                     </p>
             </div>
-            <button>оставить заявку</button>
+            <button onClick={() => setIsOpen(true)}>оставить заявку</button>
         </div>
     )
 }

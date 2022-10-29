@@ -1,5 +1,5 @@
 import s from "./forWhoPractic.module.scss"
-
+import Link from 'next/link'
 const ForWhoPractic = () => {
     return (
         <section className={s.forWhoPractic}>
@@ -54,7 +54,9 @@ const ForWhoPractic = () => {
                     </div>
 
                     <div className={s.btnWrap}>
-                        <a className={s.btn} href={"#"}>ПОДРОБНЕЕ...</a>
+                        <Link href='/chaos'>
+                            <a className={s.btn} href={"#"}>ПОДРОБНЕЕ...</a>
+                        </Link>
                     </div>
                 </div>
             </div>

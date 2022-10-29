@@ -1,5 +1,5 @@
 import s from './Variants.module.scss'
-export default function Variants() {
+export default function Variants({setIsOpen}) {
 
     return(
         <div id='mage' className={s.container}>
@@ -10,7 +10,7 @@ export default function Variants() {
                             <div style={{'backgroundImage' : `url(${'/img/adept.png'})`}} className={s.img}>
 
                             </div>
-                            <button>
+                            <button onClick = {() => setIsOpen(true)}>
                                 заказать
                             </button>
                     </div>
@@ -89,7 +89,7 @@ export default function Variants() {
                             <div style={{'backgroundImage' : `url(${'/img/magistr.png'})`}} className={s.img}>
 
                             </div>
-                            <button>
+                            <button onClick = {() => setIsOpen(true)}>
                                 заказать
                             </button>
                     </div>
@@ -102,7 +102,7 @@ export default function Variants() {
                             <div style={{'backgroundImage' : `url(${'/img/Oracle.png'})`}} className={s.img}>
 
                             </div>
-                            <button>
+                            <button onClick = {() => setIsOpen(true)}>
                                 заказать
                             </button>
                     </div>
