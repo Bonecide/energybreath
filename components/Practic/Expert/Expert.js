@@ -41,7 +41,7 @@ const Expert = () => {
                         </li>
                     </ul>
                 </div>
-                <a href={"#"} className={s.btn}>
+                <a href={"#mage"} className={s.btn}>
                     Отправить сообщение
                 </a>
             </div>

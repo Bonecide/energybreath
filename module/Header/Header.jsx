@@ -56,7 +56,9 @@ export default function Header() {
                         </Link>
                     ))}
                       <div className={s.social}>
+                            <a target='_blank' rel="noreferrer" href="https://t.me/energybreathing">
                             <IMG src={'/img/icons/orangeTelegram.svg'} alt={'telegram'}/>
+                            </a>
                             <IMG src={'/img/icons/orangeVK.svg'} alt={'vk'}/>
                             <IMG src={'/img/icons/orangeInst.svg'} alt={'instagram'}/>
                     </div>

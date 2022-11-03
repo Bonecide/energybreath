@@ -8,7 +8,7 @@ export default function Video() {
         <div className={s.container}>
                 <h1>Попробуйте вместе со мной, всего за 7 минут</h1>
                 <div className={s.video}>
-                <ReactPlayer url={'https://www.youtube.com/watch?v=Swkqd-cbVMA&ab_channel=__Vlad__'} 
+                <ReactPlayer url={'https://youtu.be/f-BKqOK9S50'} 
                 className='react-player'
                 playing={true}
                 light={true}

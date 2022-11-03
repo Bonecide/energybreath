@@ -1,6 +1,16 @@
+import { useEffect, useState } from 'react'
 import s from './Variants.module.scss'
-export default function Variants({setIsOpen}) {
+import useScript from './../../useScript';
+import BuyModal from '../../../module/BuyModal/BuyModal';
+export default function Variants() {
 
+
+    const [isOpen,setIsOpen]=useState(false)
+    const [url,setUrl] = useState()
+    const order = (url) => {
+        setIsOpen(true)
+        setUrl(url)
+    }
     return(
         <div id='mage' className={s.container}>
             <div className={s.Card}>
@@ -10,7 +20,7 @@ export default function Variants({setIsOpen}) {
                             <div style={{'backgroundImage' : `url(${'/img/adept.png'})`}} className={s.img}>
 
                             </div>
-                            <button onClick = {() => setIsOpen(true)}>
+                            <button onClick = {() => order('https://school.energybreathing.ru/pl/lite/widget/widget?&id=762924')}>
                                 заказать
                             </button>
                     </div>
@@ -18,7 +28,8 @@ export default function Variants({setIsOpen}) {
                             <p>Пакет “9 модулей”</p>
                             <div className={s.price}>
                                 <h3>Адепт</h3>
-                                <p>50 000 р.</p>
+                                <p className={s.oldPrice}>60 000 р.</p>
+                                <p>32 900 р.</p>
                             </div>
                             <ul>
                                 <li>
@@ -56,8 +67,8 @@ export default function Variants({setIsOpen}) {
                             <p>Все, что входит в пакет “Адепт”</p>
                             <div className={s.price}>
                                 <h3>Магистр</h3>
-                                <p className={s.oldPrice}>150 000 р.</p>
-                                <p>90 000 р.</p>
+                                <p className={s.oldPrice}>90 000 р.</p>
+                                <p>57 900 р.</p>
                             </div>
                             <ul>
                                 <li>
@@ -89,7 +100,7 @@ export default function Variants({setIsOpen}) {
                             <div style={{'backgroundImage' : `url(${'/img/magistr.png'})`}} className={s.img}>
 
                             </div>
-                            <button onClick = {() => setIsOpen(true)}>
+                            <button onClick = {() => order('https://school.energybreathing.ru/pl/lite/widget/widget?&id=762930')}>
                                 заказать
                             </button>
                     </div>
@@ -102,7 +113,7 @@ export default function Variants({setIsOpen}) {
                             <div style={{'backgroundImage' : `url(${'/img/Oracle.png'})`}} className={s.img}>
 
                             </div>
-                            <button onClick = {() => setIsOpen(true)}>
+                            <button onClick = {() => order('https://school.energybreathing.ru/pl/lite/widget/widget?&id=762932')}>
                                 заказать
                             </button>
                     </div>
@@ -110,7 +121,8 @@ export default function Variants({setIsOpen}) {
                             <p>Все, что входит в пакет Магистр</p>
                             <div className={s.price}>
                                 <h3>Оракул</h3>
-                                <p>1 000 000 р.</p>
+                                <p className={s.oldPrice}>250 000 р.</p>
+                                <p>135 000 р.</p>
                             </div>
                             <ul>
                                 <li>
@@ -126,6 +138,7 @@ export default function Variants({setIsOpen}) {
                     </div>
                 </div>
             </div>
+            {isOpen && <BuyModal url={url} close={setIsOpen}/>}
         </div>
     )
 }
